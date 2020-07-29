@@ -6,7 +6,3 @@ resource "aws_instance" "terraform-auto" {
     Name = "repository-build"
   }
 }
-
-output "ec2-instance" {
-  value = aws_instance.attributes.public_ip
-}
